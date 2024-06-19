@@ -1,5 +1,7 @@
 <?php
 
+
+
 // if ($_POST['addSchool']) {
 print_r($_POST);
 // Array ( [schoolName] => test [school] => test [phone] => 323827387 [email] => test@gmail.com )
@@ -22,6 +24,7 @@ $query = "INSERT INTO schools (`School Name`,`School Level`, `Phone`, `Email`)
 $school = mysqli_query($connect, $query);
 
 if ($school) {
+    setMessage('School was added successfully.');
     header("Location: ../index.php");
 } else {
     echo "Failed: " . mysqli_error($connect);
