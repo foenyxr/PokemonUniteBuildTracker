@@ -15,7 +15,39 @@
         <div class="col">
           <h1 class="display-6 mt-5 mb-5">Current available pokémon in Unite (Patch 1.14.2.10) </h1>
         </div>
-      </div>
+          <form action="inc/filterroster.php" method="GET">
+            <div class="row">
+              <h4>Filter by: </h4>
+              <div class="col">
+                <h5>Roles: </h5>
+                <button type="submit" name="pokeRole" value="attacker" class="btn btn-small btn-danger">
+                  Attacker
+                </button>
+                <button type="submit" name="Role" value="defender" class="btn btn-small btn-success">
+                  Defender
+                </button>
+                <button type="submit" name="Role" value="allrounder" class="btn btn-small btn-primary">
+                  All rounder
+                </button>
+                <button type="submit" name="Role" value="supporter" class="btn btn-small btn-warning">
+                  Supporter
+                </button>
+                <button type="submit" name="Role" value="speedster" class="btn btn-small btn-secondary">
+                  Speedster
+                </button>
+              </div>
+              <div class="col">
+                <h5>Styles: </h5>
+                <button type="submit" name="Style" value="melee" class="btn btn-small btn-info">
+                  Melee
+                </button>
+                <button type="submit" name="Style" value="ranged" class="btn btn-small btn-dark">
+                  Ranged
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
     </div>
   </div>
   
@@ -24,9 +56,7 @@
   <div class="container-fluid">
     <div class="container">
       <div class="row">
-
-        <?php include 'pages/unitedeck.php' ?>
-
+        <?php include 'content/unitedeck.php' ?>
       </div>
     </div>
   </div>

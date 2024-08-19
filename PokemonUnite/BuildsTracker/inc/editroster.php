@@ -10,7 +10,7 @@ $pokeStyle = $_POST['pokeStyle'];
 include '../reusable/conn.php';
 
 $query = "UPDATE pokemondata SET
-            `image_url` = '" . mysqli_real_escape_string($connect, $pokeImage) . "',
+            -- `image_url` = '" . mysqli_real_escape_string($connect, $pokeImage) . "',
             `Role` = '" . mysqli_real_escape_string($connect, $pokeRole) . "',
             `Style` = '" . mysqli_real_escape_string($connect, $pokeStyle) . "'
             WHERE `Name` = '" . mysqli_real_escape_string($connect, $pokeName) . "'";

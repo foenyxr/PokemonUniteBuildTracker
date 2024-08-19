@@ -3,9 +3,6 @@
 print_r($_POST);
 
 $pokeName = $_POST['pokeName'];
-$pokeImage = $_POST['pokeImage'];
-$pokeRole = $_POST['pokeRole'];
-$pokeStyle = $_POST['pokeStyle'];
 
 include '../reusable/conn.php';
 

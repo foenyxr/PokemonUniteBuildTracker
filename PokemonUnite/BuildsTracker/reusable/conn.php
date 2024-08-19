@@ -5,7 +5,4 @@
       }
       $query = 'SELECT * FROM pokemondata';
       $pokemon = mysqli_query($connect, $query);
-      // echo '<pre>';
-      // echo print_r($students);
-      // echo '</pre>';
   ?>

@@ -31,10 +31,10 @@
               <label for="pokeName" class="form-label">Pokemon name</label>
               <input type="text" class="form-control" id="pokeName" aria-describedby="pokeName" name="pokeName" >
             </div>
-            <div class="mb-3">
+            <!-- <div class="mb-3">
               <label for="pokeImage" class="form-label">Image URL</label>
               <input type="text" class="form-control" id="pokeImage" name="pokeImage">
-            </div>
+            </div> -->
             <div class="mb-3">
               <label for="pokeRole" class="form-label">Role</label>
               <input type="text" class="form-control" id="pokeRole" name="pokeRole">
