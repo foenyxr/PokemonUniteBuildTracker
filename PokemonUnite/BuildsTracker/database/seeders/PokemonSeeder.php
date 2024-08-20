@@ -16,19 +16,19 @@ class PokemonSeeder extends Seeder
     {
         DB::table('pokemon')->insert([
             [
-                'pokeimg_link' => '#',
+                'pokeimg_url' => '#',
                 'pokemon_name' => 'Charizard',
                 'pokemon_role' => 'All-rounder',
                 'pokemon_style' => 'Melee'
             ],
             [
-                'pokeimg_link' => '#',
+                'pokeimg_url' => '#',
                 'pokemon_name' => 'Miraidon',
                 'pokemon_role' => 'Attacker',
                 'pokemon_style' => 'Ranged'
             ],
             [
-                'pokeimg_link' => '#',
+                'pokeimg_url' => '#',
                 'pokemon_name' => 'Mimikyu',
                 'pokemon_role' => 'Attacker',
                 'pokemon_style' => 'Ranged'

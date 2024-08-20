@@ -31,7 +31,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## Database Schema
 
-<!-- We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com). -->
+[Schema](https://drawsql.app/teams/lumariin/diagrams/pubuildtracker/embed "@embed")
 
 ## Screenshots
 
@@ -59,4 +59,4 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

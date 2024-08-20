@@ -15,14 +15,14 @@ class ItemsSeeder extends Seeder
     {
         DB::table('items')->insert([
             [
-                'itimg_link' => '#',
+                'itimg_url' => '#',
                 'item_name' => 'Turbo glasses',
                 'item_basic_attack' => '13',
                 'item_basic_defense' => '6',
                 'item_basic_upower' => '20'
             ],
             [
-                'itimg_link' => '#',
+                'itimg_url' => '#',
                 'item_name' => 'Sun Bandana',
                 'item_basic_attack' => '19',
                 'item_basic_defense' => '4',
