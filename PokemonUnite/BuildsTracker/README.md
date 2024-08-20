@@ -1,33 +1,22 @@
 <p align="center"><a href="https://github.com/foenyxr/PokemonUniteBuildTracker/tree/main/PokemonUnite/BuildsTracker" target="_blank"><img src="https://wallpapercave.com/wp/wp9576804.jpg" width="400" alt="Pokemon Unite Cover image"></a></p>
 
-<!-- <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p> -->
-
 ## About Pokemon Unite Build Tracker
 
-<!-- Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications. -->
+Welcome to the Pokémon Unite Build Tracker! This tool allows players to experiment with different item combinations for their Pokémon, enabling them to test various builds in a fun and straightforward manner. It's designed to help players make informed decisions about their setups, ensuring they have the best possible advantage in every match.
 
 ## Features
 
-<!-- Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. **Customizable Builds**  
+   Allows players to mix and match up to three items per Pokémon, testing different combinations to find the most effective strategies for various battle scenarios.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+2. **Easy-to-Use Interface**  
+   Features a user-friendly interface that simplifies the process of selecting and comparing items, making it accessible for both beginners and seasoned players.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library. -->
+3. **Performance Insights**  
+   Provides detailed feedback on how different items impact a Pokémon's abilities in battles, helping players optimize their choices based on performance data.
+
+4. **Regular Updates (Latest patch)**  
+   Continuously updated to include the latest items and patches, ensuring the tool remains relevant and useful as the game evolves.
 
 ## Database Schema
 
@@ -51,7 +40,9 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## The idea behind this project
 
-<!-- Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions). -->
+The Pokémon Unite Build Tracker is a game-changing tool that lets players test out different battle item combinations before stepping into the arena. Each item boosts a Pokémon's stats, providing crucial advantages in matches, and with each Pokémon allowed only three items, choosing the right mix can make all the difference. This tracker offers a sandbox for players to experiment with these power-ups, simulating how they enhance a Pokémon's abilities in various battle scenarios. It's about crafting the perfect setup to maximize each Pokémon's potential, ensuring you go into each game with a strategy poised to dominate.
+
+This tracker simplifies the art of build optimization. By allowing players to predict and understand the impact of each item combination, the tool empowers them to make informed strategic decisions. It’s more than just preparation—it’s about gaining a competitive edge.
 
 ## Thoughts on Laravel
 
