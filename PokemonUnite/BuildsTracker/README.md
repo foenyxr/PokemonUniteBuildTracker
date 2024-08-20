@@ -1,6 +1,7 @@
 <p align="center"><a href="https://github.com/foenyxr/PokemonUniteBuildTracker/tree/main/PokemonUnite/BuildsTracker" target="_blank"><img src="https://wallpapercave.com/wp/wp9576804.jpg" width="400" alt="Pokemon Unite Cover image"></a></p>
 
 ## About Pokemon Unite Build Tracker
+### By Pranjal Lokhande, N01652955
 
 Welcome to the Pokémon Unite Build Tracker! This tool allows players to experiment with different item combinations for their Pokémon, enabling them to test various builds in a fun and straightforward manner. It's designed to help players make informed decisions about their setups, ensuring they have the best possible advantage in every match.
 
