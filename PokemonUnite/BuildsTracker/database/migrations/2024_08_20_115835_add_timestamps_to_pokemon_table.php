@@ -11,12 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('pokemon', function (Blueprint $table) {
-            $table->id();
-            $table->string('pokeimg_link')->nullable();
-            $table->string('pokemon_name');
-            $table->string('pokemon_role');
-            $table->string('pokemon_style');
+        Schema::table('pokemon', function (Blueprint $table) {
+            $table->timestamps(); // This will add both created_at and updated_at columns
         });
     }
 
@@ -25,6 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('pokemon');
+        Schema::table('pokemon', function (Blueprint $table) {
+            $table->dropColumn(['created_at', 'updated_at']);
+        });
     }
 };

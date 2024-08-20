@@ -18,7 +18,6 @@ return new class extends Migration
             $table->integer('item_basic_attack');
             $table->integer('item_basic_defense');
             $table->integer('item_basic_upower');
-            $table->timestamps();
         });
     }
 
