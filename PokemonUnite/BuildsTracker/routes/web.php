@@ -22,7 +22,7 @@ Route::get('/', [DashboardController::class, 'index']);
 //     return view('terms');
 // });
 
-Route::resource('pokemons', PokemonController::class);
+Route::resource('pokemon', PokemonController::class);
 
 Route::get('/pokemon', [PokemonController::class, 'index']);
 

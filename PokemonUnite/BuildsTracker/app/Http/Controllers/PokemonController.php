@@ -35,7 +35,12 @@ class PokemonController extends Controller
     }
 
     // display the selected pokemon
-    public function show(Pokemon $pokemon) {
+    public function show($id) {
+        $pokemon = Pokemon::find($id);
+
+        if(!$pokemon) {
+            return redirect() -> route('pokemon.index') -> with('error', 'Pokemon not found.');
+        }
         return view('pokemon.show', ['pokemon' => $pokemon]);
     }
 

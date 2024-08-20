@@ -14,7 +14,7 @@
 
     <ul>
         @foreach ($pokemon as $pokemon)
-            <li>{{ $pokemon->name }} - <a href="{{ route('pokemon.show', $pokemon->id) }}">View</a> | <a href="{{ route('pokemon.edit', $pokemon->id) }}">Edit</a> |
+            <li>{{ $pokemon->pokemon_name }} - <a href="{{ route('pokemon.show', $pokemon->id) }}">View</a> | <a href="{{ route('pokemon.edit', $pokemon->id) }}">Edit</a> |
             <form action="{{ route('pokemon.destroy', $pokemon->id) }}" method="POST" style="display:inline;">
                 @csrf
                 @method('DELETE')
@@ -23,5 +23,16 @@
             </li>
         @endforeach
     </ul>
+    <div class="card mb-4 shadow-sm">
+        <img src="{{ $pokemon->pokeimg_link }}" class="card-img-top" alt="{{ $pokemon->pokemon_name }}">
+        <div class="card-body">
+            <h5 class="card-title">{{ $pokemon->pokemon_name }}</h5>
+            <p class="card-text">
+                <strong>Role:</strong> {{ $pokemon->pokemon_role }} <br>
+                <strong>Style:</strong> {{ $pokemon->pokemon_style }}
+            </p>
+        </div>
+    </div>
+
 </body>
 </html>
