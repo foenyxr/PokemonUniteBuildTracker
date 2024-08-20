@@ -22,21 +22,10 @@ Welcome to the Pokémon Unite Build Tracker! This tool allows players to experim
 
 [Schema](https://drawsql.app/teams/lumariin/diagrams/pubuildtracker/embed "@embed")
 
+<iframe width="100%" height="500px" style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); border-radius:15px;" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Embedded DrawSQL IFrame" frameborder="0" src="https://drawsql.app/teams/lumariin/diagrams/pubuildtracker/embed"></iframe>
+
 ## Screenshots
 
-<!-- - **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)** -->
 
 ## The idea behind this project
 
@@ -46,7 +35,6 @@ This tracker simplifies the art of build optimization. By allowing players to pr
 
 ## Thoughts on Laravel
 
-<!-- In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct). -->
 
 ## License
 
