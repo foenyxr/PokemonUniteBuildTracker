@@ -15,7 +15,7 @@ class ItemsSeeder extends Seeder
     {
         DB::table('items')->insert([
             [
-                'itimg_url' => '#',
+                'itimg_link' => '#',
                 'item_name' => 'Turbo glasses',
                 'item_basic_attack' => '13',
                 'item_basic_defense' => '6',
