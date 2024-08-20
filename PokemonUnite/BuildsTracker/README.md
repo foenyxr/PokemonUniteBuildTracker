@@ -21,7 +21,8 @@ Welcome to the Pokémon Unite Build Tracker! This tool allows players to experim
 ## Database Schema
 
 [Schema](https://drawsql.app/teams/lumariin/diagrams/pubuildtracker/embed "@embed")
-[Schema](public/database_schema.png)
+
+<p align="center"><img src="public/database_schema.png" width="400" alt="Pokemon Unite Cover image"></a></p>
 
 ## Screenshots
 
